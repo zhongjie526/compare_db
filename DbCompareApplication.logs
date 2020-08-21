@@ -1,0 +1,189 @@
+2020-08-20 14:03:18.666  INFO 84915 --- [main] c.p.DBCompare.DbCompareApplication       : Starting DbCompareApplication using Java 14.0.1 on Franks-MacBook-Pro with PID 84915 (/Users/frankzhang/dev/projects/DB-Compare/target/classes started by frankzhang in /Users/frankzhang/dev/projects/DB-Compare)
+2020-08-20 14:03:18.671  INFO 84915 --- [main] c.p.DBCompare.DbCompareApplication       : No active profile set, falling back to default profiles: default
+2020-08-20 14:03:19.644  INFO 84915 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-20 14:03:19.674  INFO 84915 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2020-08-20 14:03:20.447  INFO 84915 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 14:03:20.498  INFO 84915 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-20 14:03:20.499  INFO 84915 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-20 14:03:20.512  INFO 84915 --- [main] c.p.DBCompare.DbCompareApplication       : Started DbCompareApplication in 2.542 seconds (JVM running for 3.72)
+2020-08-20 14:03:20.520  INFO 84915 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-20 14:03:20.685  INFO 84915 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-20 14:03:20.707  INFO 84915 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-08-20 14:03:21.178  INFO 84915 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-08-20 14:03:21.186  INFO 84915 --- [main] c.p.DBCompare.DbCompareApplication       : Count Matched: source table: ifrs17.ifrs4_sungl_extract, target table: ifrs17.PurchaseOrderDetail, count = 3
+2020-08-20 14:03:21.190  INFO 84915 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 14:03:21.192  INFO 84915 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-08-20 14:03:21.198  INFO 84915 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-08-20 14:03:21.199  INFO 84915 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-20 14:03:21.202  INFO 84915 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-20 14:03:52.810  INFO 85013 --- [main] c.p.DBCompare.DbCompareApplication       : Starting DbCompareApplication using Java 14.0.1 on Franks-MacBook-Pro with PID 85013 (/Users/frankzhang/dev/projects/DB-Compare/target/classes started by frankzhang in /Users/frankzhang/dev/projects/DB-Compare)
+2020-08-20 14:03:52.815  INFO 85013 --- [main] c.p.DBCompare.DbCompareApplication       : No active profile set, falling back to default profiles: default
+2020-08-20 14:03:54.109  INFO 85013 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-20 14:03:54.128  INFO 85013 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2020-08-20 14:03:54.599  INFO 85013 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 14:03:54.642  INFO 85013 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-20 14:03:54.643  INFO 85013 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-20 14:03:54.652  INFO 85013 --- [main] c.p.DBCompare.DbCompareApplication       : Started DbCompareApplication in 2.542 seconds (JVM running for 4.065)
+2020-08-20 14:03:54.661  INFO 85013 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-20 14:03:54.807  INFO 85013 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-20 14:03:54.829  INFO 85013 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-08-20 14:03:55.265  INFO 85013 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-08-20 14:03:55.274  INFO 85013 --- [main] c.p.DBCompare.DbCompareApplication       : Count Matched: source table: ifrs17.ifrs4_sungl_extract, target table: ifrs17.PurchaseOrderDetail, count = 3
+2020-08-20 14:03:55.278  INFO 85013 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 14:03:55.280  INFO 85013 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-08-20 14:03:55.288  INFO 85013 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-08-20 14:03:55.288  INFO 85013 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-20 14:03:55.294  INFO 85013 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-20 14:08:43.327  INFO 85400 --- [main] c.p.DBCompare.DbCompareApplication       : Starting DbCompareApplication using Java 14.0.1 on Franks-MacBook-Pro with PID 85400 (/Users/frankzhang/dev/projects/DB-Compare/target/classes started by frankzhang in /Users/frankzhang/dev/projects/DB-Compare)
+2020-08-20 14:08:43.332  INFO 85400 --- [main] c.p.DBCompare.DbCompareApplication       : No active profile set, falling back to default profiles: default
+2020-08-20 14:08:44.116  INFO 85400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-20 14:08:44.133  INFO 85400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2020-08-20 14:08:44.620  INFO 85400 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 14:08:44.665  INFO 85400 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-20 14:08:44.666  INFO 85400 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-20 14:08:44.675  INFO 85400 --- [main] c.p.DBCompare.DbCompareApplication       : Started DbCompareApplication in 2.148 seconds (JVM running for 3.332)
+2020-08-20 14:08:44.683  INFO 85400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-20 14:08:44.845  INFO 85400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-20 14:08:44.863  INFO 85400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-08-20 14:08:45.245  INFO 85400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-08-20 14:08:45.253  INFO 85400 --- [main] c.p.DBCompare.DbCompareApplication       : Count Matched: source table: ifrs17.ifrs4_sungl_extract, target table: ifrs17.PurchaseOrderDetail, count = 3
+2020-08-20 14:08:45.257  INFO 85400 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 14:08:45.259  INFO 85400 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-08-20 14:08:45.265  INFO 85400 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-08-20 14:08:45.265  INFO 85400 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-20 14:08:45.268  INFO 85400 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-20 14:55:36.436  INFO 87256 --- [main] c.p.DBCompare.DbCompareApplication       : Starting DbCompareApplication using Java 14.0.1 on Franks-MacBook-Pro with PID 87256 (/Users/frankzhang/dev/projects/DB-Compare/target/classes started by frankzhang in /Users/frankzhang/dev/projects/DB-Compare)
+2020-08-20 14:55:36.439  INFO 87256 --- [main] c.p.DBCompare.DbCompareApplication       : No active profile set, falling back to default profiles: default
+2020-08-20 14:55:37.382  INFO 87256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-20 14:55:37.399  INFO 87256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2020-08-20 14:55:37.801  WARN 87256 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dbCompareApplication': Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'yamlFooProperties': Could not bind properties to 'YamlFooProperties' : prefix=yaml, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'yaml' to com.prudential.DBCompare.YamlFooProperties$$EnhancerBySpringCGLIB$$89b933fd
+2020-08-20 14:55:37.810  INFO 87256 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-20 14:55:37.814 ERROR 87256 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'yaml' to com.prudential.DBCompare.YamlFooProperties$$EnhancerBySpringCGLIB$$89b933fd:
+
+    Property: yaml.name
+    Value: foo
+    Origin: "yaml.name" from property source "foo.yml"
+    Reason: No setter found for property: name
+
+Action:
+
+Update your application's configuration
+
+2020-08-20 14:56:06.396  INFO 87279 --- [main] c.p.DBCompare.DbCompareApplication       : Starting DbCompareApplication using Java 14.0.1 on Franks-MacBook-Pro with PID 87279 (/Users/frankzhang/dev/projects/DB-Compare/target/classes started by frankzhang in /Users/frankzhang/dev/projects/DB-Compare)
+2020-08-20 14:56:06.401  INFO 87279 --- [main] c.p.DBCompare.DbCompareApplication       : No active profile set, falling back to default profiles: default
+2020-08-20 14:56:07.473  INFO 87279 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-20 14:56:07.517  INFO 87279 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2020-08-20 14:56:08.102  INFO 87279 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 14:56:08.160  INFO 87279 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-20 14:56:08.161  INFO 87279 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-20 14:56:08.172  INFO 87279 --- [main] c.p.DBCompare.DbCompareApplication       : Started DbCompareApplication in 2.626 seconds (JVM running for 3.63)
+2020-08-20 14:56:08.180  INFO 87279 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-20 14:56:08.276  INFO 87279 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-20 14:56:08.354  INFO 87279 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-08-20 14:56:08.756  INFO 87279 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-08-20 14:56:08.765  INFO 87279 --- [main] c.p.DBCompare.DbCompareApplication       : Count Matched: source table: ifrs17.ifrs4_sungl_extract, target table: ifrs17.PurchaseOrderDetail, count = 3
+2020-08-20 14:56:08.769  INFO 87279 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 14:56:08.771  INFO 87279 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-08-20 14:56:08.777  INFO 87279 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-08-20 14:56:08.777  INFO 87279 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-20 14:56:08.781  INFO 87279 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-20 16:22:40.520  INFO 90741 --- [main] c.p.DBCompare.DbCompareApplication       : Starting DbCompareApplication using Java 14.0.1 on Franks-MacBook-Pro with PID 90741 (/Users/frankzhang/dev/projects/DB-Compare/target/classes started by frankzhang in /Users/frankzhang/dev/projects/DB-Compare)
+2020-08-20 16:22:40.525  INFO 90741 --- [main] c.p.DBCompare.DbCompareApplication       : No active profile set, falling back to default profiles: default
+2020-08-20 16:22:41.582  INFO 90741 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-20 16:22:41.614  INFO 90741 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2020-08-20 16:22:42.276  INFO 90741 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 16:22:42.337  INFO 90741 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-20 16:22:42.338  INFO 90741 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-20 16:22:42.349  INFO 90741 --- [main] c.p.DBCompare.DbCompareApplication       : Started DbCompareApplication in 2.72 seconds (JVM running for 3.859)
+2020-08-20 16:22:42.359  INFO 90741 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-20 16:22:42.532  INFO 90741 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-20 16:22:42.569  INFO 90741 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-08-20 16:22:43.013  INFO 90741 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-08-20 16:22:43.023  INFO 90741 --- [main] c.p.DBCompare.DbCompareApplication       : Count Matched: source table: ifrs17.ifrs4_sungl_extract, target table: ifrs17.PurchaseOrderDetail, count = 3
+2020-08-20 16:22:43.028  INFO 90741 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 16:22:43.030  INFO 90741 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-08-20 16:22:43.038  INFO 90741 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-08-20 16:22:43.038  INFO 90741 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-20 16:22:43.045  INFO 90741 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-20 16:27:50.315  INFO 90952 --- [main] c.p.DBCompare.DbCompareApplication       : Starting DbCompareApplication using Java 14.0.1 on Franks-MacBook-Pro with PID 90952 (/Users/frankzhang/dev/projects/DB-Compare/target/classes started by frankzhang in /Users/frankzhang/dev/projects/DB-Compare)
+2020-08-20 16:27:50.319  INFO 90952 --- [main] c.p.DBCompare.DbCompareApplication       : No active profile set, falling back to default profiles: default
+2020-08-20 16:27:51.590  INFO 90952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-20 16:27:51.610  INFO 90952 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2020-08-20 16:27:52.112  INFO 90952 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 16:27:52.157  INFO 90952 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-20 16:27:52.158  INFO 90952 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-20 16:27:52.168  INFO 90952 --- [main] c.p.DBCompare.DbCompareApplication       : Started DbCompareApplication in 2.866 seconds (JVM running for 4.595)
+2020-08-20 16:27:52.176  INFO 90952 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-20 16:27:52.322  INFO 90952 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-20 16:27:52.349  INFO 90952 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-08-20 16:27:52.756  INFO 90952 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-08-20 16:27:52.772  INFO 90952 --- [main] c.p.DBCompare.DbCompareApplication       : Count Matched: source table: ifrs17.ifrs4_sungl_extract, target table: ifrs17.PurchaseOrderDetail, count = 3
+2020-08-20 16:27:52.781  INFO 90952 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 16:27:52.783  INFO 90952 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-08-20 16:27:52.792  INFO 90952 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-08-20 16:27:52.793  INFO 90952 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-20 16:27:52.797  INFO 90952 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-20 16:29:40.517  INFO 91034 --- [main] c.p.DBCompare.DbCompareApplication       : Starting DbCompareApplication using Java 14.0.1 on Franks-MacBook-Pro with PID 91034 (/Users/frankzhang/dev/projects/DB-Compare/target/classes started by frankzhang in /Users/frankzhang/dev/projects/DB-Compare)
+2020-08-20 16:29:40.521  INFO 91034 --- [main] c.p.DBCompare.DbCompareApplication       : No active profile set, falling back to default profiles: default
+2020-08-20 16:29:41.965  INFO 91034 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-20 16:29:41.987  INFO 91034 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2020-08-20 16:29:42.743  INFO 91034 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 16:29:42.936  INFO 91034 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-20 16:29:42.939  INFO 91034 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-20 16:29:43.017  INFO 91034 --- [main] c.p.DBCompare.DbCompareApplication       : Started DbCompareApplication in 3.172 seconds (JVM running for 4.542)
+2020-08-20 16:29:43.033  INFO 91034 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-20 16:29:43.356  INFO 91034 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-20 16:29:43.403  INFO 91034 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-08-20 16:29:44.111  INFO 91034 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-08-20 16:29:44.128  INFO 91034 --- [main] c.p.DBCompare.DbCompareApplication       : Count Matched: source table: ifrs17.ifrs4_sungl_extract, target table: ifrs17.PurchaseOrderDetail, count = 3
+2020-08-20 16:29:44.133  INFO 91034 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 16:29:44.135  INFO 91034 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-08-20 16:29:44.143  INFO 91034 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-08-20 16:29:44.143  INFO 91034 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-20 16:29:44.147  INFO 91034 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-20 16:31:09.666  INFO 91109 --- [main] c.p.DBCompare.DbCompareApplication       : Starting DbCompareApplication using Java 14.0.1 on Franks-MacBook-Pro with PID 91109 (/Users/frankzhang/dev/projects/DB-Compare/target/classes started by frankzhang in /Users/frankzhang/dev/projects/DB-Compare)
+2020-08-20 16:31:09.670  INFO 91109 --- [main] c.p.DBCompare.DbCompareApplication       : No active profile set, falling back to default profiles: default
+2020-08-20 16:31:10.536  INFO 91109 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-20 16:31:10.559  INFO 91109 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2020-08-20 16:31:11.107  INFO 91109 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 16:31:11.166  INFO 91109 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-20 16:31:11.166  INFO 91109 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-20 16:31:11.176  INFO 91109 --- [main] c.p.DBCompare.DbCompareApplication       : Started DbCompareApplication in 2.144 seconds (JVM running for 3.449)
+2020-08-20 16:31:11.184  INFO 91109 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-20 16:31:11.337  INFO 91109 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-20 16:31:11.369  INFO 91109 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-08-20 16:31:11.791  INFO 91109 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-08-20 16:31:11.799  INFO 91109 --- [main] c.p.DBCompare.DbCompareApplication       : Count Matched: source table: ifrs17.ifrs4_sungl_extract, target table: ifrs17.PurchaseOrderDetail, count = 3
+2020-08-20 16:31:11.803  INFO 91109 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 16:31:11.804  INFO 91109 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-08-20 16:31:11.810  INFO 91109 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-08-20 16:31:11.810  INFO 91109 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-20 16:31:11.814  INFO 91109 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-20 16:40:42.195  INFO 91526 --- [main] c.p.DBCompare.DbCompareApplication       : Starting DbCompareApplication using Java 14.0.1 on Franks-MacBook-Pro with PID 91526 (/Users/frankzhang/dev/projects/DB-Compare/target/classes started by frankzhang in /Users/frankzhang/dev/projects/DB-Compare)
+2020-08-20 16:40:42.201  INFO 91526 --- [main] c.p.DBCompare.DbCompareApplication       : No active profile set, falling back to default profiles: default
+2020-08-20 16:40:43.289  INFO 91526 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-20 16:40:43.316  INFO 91526 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2020-08-20 16:40:43.830  INFO 91526 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-20 16:40:43.880  INFO 91526 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-20 16:40:43.880  INFO 91526 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-20 16:40:43.890  INFO 91526 --- [main] c.p.DBCompare.DbCompareApplication       : Started DbCompareApplication in 2.377 seconds (JVM running for 3.823)
+2020-08-20 16:40:43.898  INFO 91526 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-20 16:40:44.077  INFO 91526 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-20 16:40:44.095  INFO 91526 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-08-20 16:40:44.493  INFO 91526 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-08-20 16:40:44.507  INFO 91526 --- [main] com.prudential.DBCompare.DbComparison    : Count Matched: source table: ifrs17.ifrs4_sungl_extract, target table: ifrs17.PurchaseOrderDetail, count = 3
+2020-08-20 16:40:44.512  INFO 91526 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-20 16:40:44.513  INFO 91526 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-08-20 16:40:44.519  INFO 91526 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-08-20 16:40:44.519  INFO 91526 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-20 16:40:44.522  INFO 91526 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

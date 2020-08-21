@@ -1,0 +1,7 @@
+yaml:
+  criterion: count
+  tables:
+    - source: tablesrc
+      target: tabletagert1
+    - source: table2
+      target: tabletarget2
