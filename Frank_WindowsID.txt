@@ -1,0 +1,69 @@
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : LIDLIFEPF1CKNA
+   Primary Dns Suffix  . . . . . . . : PRU.intranet.asia
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : pru.intranet.asia
+                                       PRU.intranet.asia
+
+PPP adapter _Common_VPN_Staff_na_res - vpn.prudential.co.id:
+
+   Connection-specific DNS Suffix  . : pru.intranet.asia
+   Description . . . . . . . . . . . : _Common_VPN_Staff_na_res - vpn.prudential.co.id
+   Physical Address. . . . . . . . . :
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   IPv4 Address. . . . . . . . . . . : 10.171.98.234(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.255
+   Default Gateway . . . . . . . . . : 0.0.0.0
+   DNS Servers . . . . . . . . . . . : 10.171.210.20
+                                       10.171.210.21
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : pruasia.intranet.asia
+   Description . . . . . . . . . . . : Realtek PCIe GbE Family Controller
+   Physical Address. . . . . . . . . : F8-75-A4-96-74-2F
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 54-8D-5A-1E-7B-3F
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physical Address. . . . . . . . . : 56-8D-5A-1E-7B-3E
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Intel(R) Wi-Fi 6 AX201 160MHz
+   Physical Address. . . . . . . . . : 54-8D-5A-1E-7B-3E
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::b963:ae8a:7715:4733%14(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.50.27(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Friday, June 5, 2020 12:31:58 PM
+   Lease Expires . . . . . . . . . . : Saturday, June 6, 2020 12:31:57 PM
+   Default Gateway . . . . . . . . . :
+   DHCP Server . . . . . . . . . . . : 192.168.50.1
+   DHCPv6 IAID . . . . . . . . . . . : 139758938
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-26-02-71-37-F8-75-A4-96-74-2F
+   DNS Servers . . . . . . . . . . . : 192.168.50.1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
